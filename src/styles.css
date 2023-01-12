@@ -1,0 +1,113 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Trirong", Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 500px;
+  border: 1px solid black;
+  margin: 10px auto;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: sans-serif;
+  min-height: 300px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 60px;
+  background-color: dodgerblue;
+  border: none;
+  border-radius: 4px;
+  color: white;
+}
+
+.btn:hover{
+cursor: pointer;
+font-weight: bold;
+color: orange;
+}
+
+.task {
+  border: none;
+  padding: 15px;
+  margin: 15px 0;
+  border-radius: 3px;
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.span{
+  display: flex;
+  justify-content: space-between;
+}
+
+.iconspan{
+  width: 15px;
+  color: red;
+
+}
+
+.iconspan{
+cursor: pointer;
+}
+
+.toggle{
+border-left: 5px solid orangered;
+}
+
+.form-div label, .form-div input{
+ display: block
+}
+
+.form-div{
+  margin-top: 8px;
+  position: relative;
+}
+
+input{
+  width: 100%;
+  padding: 8px;
+}
+
+.submit{
+background-color: green;
+color: white;
+border: none;
+border-radius: 4px;
+font-size: 1rem;
+margin-bottom: 10px;
+}
+
+.submit:hover{
+background-color: darkgreen
+}
+
+.checkbox{
+position: absolute;
+right: 5px;
+bottom: 16px;
+}
+
+.check{
+padding: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+border-radius: 2px;
+}
+
+form{
+margin-bottom: 50px;
+}
+
+::selection{
+  color: none;
+  background: none;
+}
